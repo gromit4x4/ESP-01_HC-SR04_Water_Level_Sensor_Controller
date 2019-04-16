@@ -16,8 +16,8 @@
 #include <WiFiClient.h>
 
 // Replace with your network credentials
-const char* ssid     = "AS_CPNET24";
-const char* password = "cookpop17";
+const char* ssid     = "some_ssid";
+const char* password = "some_password";
 
 // Set Tasmota Power ON/OFF Commands - Edit with your device_ip.
 const char* tason = "http://192.168.11.118/cm?cmnd=Power%20on";
